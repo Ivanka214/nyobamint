@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111111; /* Tema gelap */
+    color: #eeeeee; /* Warna teks gelap */
+}
+
+header {
+    background-color: #202225;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.judul{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #202225;
+}
+
+main {
+    padding: 20px;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+footer {
+    background-color: #202225;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #202225;
+    background-color: #202225;
+    color: #ffffff;
+}
+
+.profile-image {
+    width: 280px;
+    height: 320px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Memastikan teks dimulai dari sisi kiri */
+}
+
+.profile-info p {
+    margin-bottom: 10px; /* Menambahkan margin bawah untuk setiap paragraf */
+}
+
+/* Gaya umum untuk form */
+form {
+    width: 100%;
+    max-width: 600px; /* Membatasi lebar form */
+    margin: 0 auto; /* Mengatur form ke tengah */
+    padding: 20px;
+    background-color: #36393f; /* Warna latar belakang form Discord */
+    border-radius: 5px; /* Sudut bulat */
+    color: #dcddde; /* Warna font terang */
+}
+
+/* Gaya untuk label */
+label {
+    display: block; /* Membuat label menjadi block */
+    margin-bottom: 5px; /* Menambahkan margin bawah */
+    font-weight: bold; /* Membuat teks label menjadi tebal */
+    color: #dcddde; /* Warna font terang */
+}
+
+/* Gaya untuk input dan textarea */
+input, textarea {
+    width: 95%; /* Mengatur lebar menjadi 95% */
+    padding: 8px; /* Menambahkan padding di dalam elemen */
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Sudut bulat */
+    font-size: 16px; /* Ukuran font */
+    color: #dcddde; /* Warna font terang */
+}
+
+/* Gaya untuk tombol submit */
+input[type="submit"] {
+    background-color: #007bff; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Menghapus border */
+    border-radius: 5px; /* Sudut bulat */
+    cursor: pointer; /* Mengubah cursor menjadi pointer */
+    padding: 10px 20px; /* Menambahkan padding */
+    font-size: 16px; /* Ukuran font */
+    display: block; /* Membuat tombol submit menjadi block */
+    width: 100px; /* Menentukan lebar tombol submit */
+    margin: 0 auto; /* Mengatur margin bawah dan atas menjadi 0 dan margin kiri dan kanan menjadi auto untuk pusat */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
